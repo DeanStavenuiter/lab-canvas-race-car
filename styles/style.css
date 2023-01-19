@@ -1,6 +1,14 @@
 body {
   padding: 0;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+}
+canvas {
+  max-width: 500px;
+  max-height: 700px;
 }
 
 .game-intro {
